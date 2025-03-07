@@ -5,14 +5,13 @@
 In this lab I will be viewing and analysing linux security logs.
 <h2>Lab walk-through:</h2>
 
-#### Nevigate to events log directory
+#### Nevigating to events log directory
 - Event logs are located in the /var/log directory
 
 <p align="center"><img src="https://i.imgur.com/I5lZFRn.png" height="50%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
-#### Viewing Events in Event Viewer
-- Open Event Viewer
+ - **`cat auth.log`** to view authentication-related events log
 - Windows Logs > Security
 <p align="center"><img src="https://i.imgur.com/aW1OEnU.png" height="50%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
